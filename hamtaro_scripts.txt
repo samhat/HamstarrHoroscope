@@ -1,0 +1,4 @@
+convert -background transparent -fill black -font Hamtaro.ttf -pointsize 32 -size 390x80 -interword-spacing 16 caption:"Don't stay up late tonight. Go to bed early so you can enjoy a nice dream." caption.png
+composite -geometry +32+216 caption.png hamstarr_blank_blue.png caption_and_bg.png
+
+convert -background "rgb(248,248,232)" -fill black -font Hamtaro.ttf -pointsize 32 -size 390x80 -interword-spacing 16 caption:"Don't stay up late tonight. Go to bed early so you can enjoy a nice dream." caption_color.png
